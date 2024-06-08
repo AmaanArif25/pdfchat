@@ -14,6 +14,10 @@ from langchain.llms import HuggingFacePipeline
 from langchain.chains import RetrievalQA 
 from constants import CHROMA_SETTINGS
 from streamlit_chat import message
+# For Pydantic 1.x
+from pydantic import BaseSettings
+# For Pydantic 2.x
+from pydantic_settings import BaseSettings
 
 st.set_page_config(layout="wide")
 
