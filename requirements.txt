@@ -1,0 +1,17 @@
+langchain-community ==0.2.4
+langchain
+pypdf
+chromadb
+faiss-gpu
+tenacity
+sentence_transformers
+torch
+sentencepiece
+transformers
+tiktoken
+streamlit
+accelerate
+fastapi
+uvicorn
+python-multipart
+aiofiles
